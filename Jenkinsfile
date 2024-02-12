@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run') {
             steps {
-                java Hello_World
+                sh 'java Hello_World'
             }
         }
     }
