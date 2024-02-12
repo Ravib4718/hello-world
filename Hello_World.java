@@ -6,20 +6,15 @@ public class HelloWorld {
         Scanner sc=new Scanner(System.in);
         //to store user name
         String username;
-        //reading and storing user name
-        username=sc.nextLine();
-        //displaying user name with hello
-        // to display value of variable use variable name
-        //System.out.println("Hello,"+ username);
-
+        
         //now we will use funtions to display user hello world to user
-        show(username);
+        show();
         sc.close();
 
 
 
     }
-    public static void show(String username){
-        System.out.println("Hello World,"+ username);
+    public static void show(){
+        System.out.println("Hello World");
     }
 }
